@@ -1,0 +1,19 @@
+async function myAsyncFunction(){
+return new promise(function(resolve){
+setTimeout(function(){
+resolve("This is another message!");
+},2000);
+});
+}
+async function myDisplay(){
+let myPromise = new promise(function(resolve){
+setTimeout(function(){
+resolve("like");
+},3000);s
+});
+//Use promise.all to run both promises concurrently
+const[result1,result2] = await Promise.all([myPromise,girlsAsyncFunction()]);
+console.log(result1);
+console.log(result2);
+}
+myDisplay();

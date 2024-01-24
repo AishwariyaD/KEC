@@ -1,0 +1,127 @@
+.head{
+    margin-top: -1rem;
+    padding-top: -3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+.h_1{
+
+    display:flex;
+    justify-content: left; 
+    align-items: center;
+    flex-direction: row;
+    column-gap:3rem ; 
+    justify-content: space-evenly;
+}
+.h_2{    
+    padding-left: 3rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 3rem;
+}
+.h_element_cen
+{
+    padding-left: 3rem;
+    justify-content: center;
+}
+.logbutton
+{
+    justify-content: end;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    border: 2px solid rgb(57, 218, 243);
+    color:rgb(57, 218, 243)
+}
+.head2{
+    display: flex;
+    flex-direction: column;
+    margin-top: -0.5rem;
+    background-color: rgb(205, 252, 240);
+    padding-top: -5rem;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:7rem;
+}
+.sec_line{
+    margin-top: -1rem;
+}
+.button
+{
+    border: none;
+    display: flex;    
+    color: white;
+    background-color:rgb(3, 196, 218);
+    padding-left:1rem;
+    padding-right:1rem;
+}
+.freebutton
+{
+    
+    display: flex;
+    justify-content: center;
+    
+    
+}
+img
+{
+    margin-top:-5rem;
+}
+.image
+{
+    text-align: center;
+}
+.tb{
+    text-align: center;
+}
+.ourcostomer
+{
+    text-align: center;
+    color: rgb(0, 191, 255);
+    padding-top: -1px;
+}
+.icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    column-gap: 1rem;    
+}
+.dell{
+    margin-top:-2.3rem;
+}
+.after_sponcer
+{
+    display: flex;
+    column-gap: 1rem;
+    justify-content: center;
+}
+.num
+{
+    color: rgb(3, 196, 218);
+}
+.after1{
+    display: flex;
+}
+li{
+    display: inline-flex;
+}
+.left{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;   
+}
+.title{
+    display: flex;
+    margin-bottom: -1.5rem;
+    gap:3px;
+}
+.part1
+{
+    margin-left: 15rem;
+}
